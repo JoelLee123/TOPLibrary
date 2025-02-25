@@ -39,6 +39,30 @@ h1 {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
 }
 
+.book-card h2 {
+    text-align: center;
+}
+
+.book-card button {
+    display: flex;
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    border: solid 1px black;
+    background-color: #E54C44;
+    border-radius: 24px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.book-card button:hover {
+    background-color: #e08b87;
+    color: white;
+}
+
 /* Centering the "Add a Book" button */
 .button {
     display: flex;

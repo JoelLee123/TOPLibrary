@@ -1,3 +1,7 @@
+html {
+    background-color: #FFFCEF;
+}
+
 .form-container {
     display: flex;
     flex-direction: column;
@@ -14,7 +18,7 @@
     padding: 20px;
     padding-right: 30px;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 24px;
     background-color: #F1CF54;
     width: 500px;   /* Recommended: set a fixed width */
 }
@@ -30,9 +34,11 @@
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    background-color: #FFFCEF;
 }
 
 #book-fieldset input[type="submit"] {
+    margin-top: 20px;
     border: solid 1px black;
     background-color: #E54C44;
     border-radius: 24px;
@@ -41,8 +47,12 @@
     text-decoration: none;
 }
 
-h2 {
+#book-fieldset input[type="submit"]:hover {
+    background-color: #e08b87;
+    color: white;
+}
+
+#book-fieldset h2 {
     text-align: center;
-    margin: 0;
-    padding: 0;
+    width: 100%;
 }
